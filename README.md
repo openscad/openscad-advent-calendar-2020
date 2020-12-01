@@ -1,5 +1,7 @@
 # openscad-advent-calendar-2020
 
+![screenshot](advent-calendar-2020.png)
+
 - [x] `Tu 1. `
 - [x] `We 2. `
 - [x] `Th 3. `
