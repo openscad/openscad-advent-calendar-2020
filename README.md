@@ -2,30 +2,30 @@
 
 ![screenshot](advent-calendar-2020.png)
 
-- [x] `Tu 1. `
-- [x] `We 2. `
-- [x] `Th 3. `
-- [x] `Fr 4. `
-- [x] `Sa 5. `
-- [x] `So 6. `
-- [x] `Mo 7. `
-- [x] `Tu 8. `
-- [x] `We 9. `
-- [x] `Th 10. `
-- [x] `Fr 11. `
-- [x] `Sa 12. `
-- [x] `So 13. `
-- [x] `Mo 14. `
-- [x] `Tu 15. `
-- [x] `We 16. `
-- [x] `Th 17. `
-- [x] `Fr 18. `
-- [x] `Sa 19. `
-- [x] `So 20. `
-- [x] `Mo 21. `
-- [x] `Tu 22. `
-- [x] `We 23. `
-- [x] `Th 24. `
+- [x] `Tu 1. tree`
+- [x] `We 2. fox-head`
+- [x] `Th 3. dandelion`
+- [x] `Fr 4. pacman`
+- [x] `Sa 5. color-cube`
+- [x] `So 6. nikolaus`
+- [x] `Mo 7. elephant`
+- [x] `Tu 8. flower`
+- [x] `We 9. lamp`
+- [ ] `Th 10. `
+- [ ] `Fr 11. `
+- [ ] `Sa 12. `
+- [ ] `So 13. `
+- [ ] `Mo 14. `
+- [ ] `Tu 15. `
+- [ ] `We 16. `
+- [ ] `Th 17. `
+- [ ] `Fr 18. `
+- [ ] `Sa 19. `
+- [ ] `So 20. `
+- [ ] `Mo 21. `
+- [ ] `Tu 22. `
+- [ ] `We 23. `
+- [ ] `Th 24. `
 ```
 
 * Must work with OpenSCAD 2019.05 (e.g. not snapshot version)
