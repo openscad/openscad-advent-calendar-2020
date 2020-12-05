@@ -11,8 +11,8 @@
 - [x] `Mo 7. elephant`
 - [x] `Tu 8. flower`
 - [x] `We 9. lamp`
-- [ ] `Th 10. `
-- [ ] `Fr 11. `
+- [x] `Th 10. any-key`
+- [x] `Fr 11. clock`
 - [ ] `Sa 12. `
 - [ ] `So 13. `
 - [ ] `Mo 14. `
