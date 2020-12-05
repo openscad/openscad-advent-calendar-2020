@@ -1,14 +1,14 @@
 PNGS=$(patsubst %.param,%.png,$(wildcard *.param))
 GIFS=$(patsubst %.anim,%.gif,$(wildcard *.anim))
 
-_%.png : %.param .options Makefile
+_%.png : %.param .options
 	openscad -o $@ `cat .options` `cat $<`
 	cp `awk '{print $$NF;}' $<` $(patsubst %.param,%.scad,$<)
 
 %.png : _%.png
 	convert $< -scale 240x-1 $@
 
-%.gif : %.anim Makefile
+%.gif : %.anim
 	openscad-nightly -o _anim_.png --imgsize 1024,1024 `cat $<`
 	convert -delay 8 _anim_*.png -loop 0 -resize 256x256 $@
 	rm -f _anim_*.png
