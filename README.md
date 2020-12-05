@@ -13,7 +13,7 @@
 - [x] `We 9. lamp`
 - [x] `Th 10. any-key`
 - [x] `Fr 11. clock`
-- [ ] `Sa 12. `
+- [x] `Sa 12. cookie-cutter`
 - [ ] `So 13. `
 - [ ] `Mo 14. `
 - [ ] `Tu 15. `
