@@ -14,8 +14,8 @@
 - [x] `Th 10. any-key`
 - [x] `Fr 11. clock`
 - [x] `Sa 12. cookie-cutter`
-- [ ] `So 13. `
-- [ ] `Mo 14. `
+- [x] `So 13. sixpack`
+- [x] `Mo 14. flower-in-pot`
 - [ ] `Tu 15. `
 - [ ] `We 16. `
 - [ ] `Th 17. `
