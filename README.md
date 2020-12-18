@@ -16,14 +16,14 @@
 - [x] `Sa 12. cookie-cutter`
 - [x] `So 13. sixpack`
 - [x] `Mo 14. flower-in-pot`
-- [ ] `Tu 15. `
-- [ ] `We 16. `
-- [ ] `Th 17. `
-- [ ] `Fr 18. `
-- [ ] `Sa 19. `
+- [x] `Tu 15. crown`
+- [x] `We 16. snowshovel`
+- [x] `Th 17. vase`
+- [x] `Fr 18. bauble`
+- [x] `Sa 19. barnsley-fern`
 - [ ] `So 20. `
-- [ ] `Mo 21. `
-- [ ] `Tu 22. `
+- [x] `Mo 21. wavy-thing`
+- [x] `Tu 22. julia`
 - [ ] `We 23. `
 - [ ] `Th 24. `
 ```
