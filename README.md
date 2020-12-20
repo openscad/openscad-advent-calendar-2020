@@ -21,7 +21,7 @@
 - [x] `Th 17. vase`
 - [x] `Fr 18. bauble`
 - [x] `Sa 19. barnsley-fern`
-- [ ] `So 20. `
+- [x] `So 20. star`
 - [x] `Mo 21. wavy-thing`
 - [x] `Tu 22. julia`
 - [ ] `We 23. `
