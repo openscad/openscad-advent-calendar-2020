@@ -5,12 +5,9 @@
 $fa = 1;
 $fs = 0.4;
 
-
-faceang = 360*$t/0.5;
 jumprotstart = -360*0.5/0.5-1.1;
 facerad = 25;
 smilemax = 130;
-smileang = smilemax*($t-0.8)/0.2;
 jumprotend = -smilemax*(0.8-0.8)/0.2-1.1+180+smilemax/2;
 smilerad = 13;
 smilepos = 16;
@@ -19,6 +16,8 @@ eyepos2 = [8, 10];
 jump_height = 15;
 paint_color = "yellow";
 
+function faceang() = 360*$t/0.5;
+function smileang() = smilemax*($t-0.8)/0.2;
 
 module BasePlate() {
   color("white")
@@ -56,7 +55,7 @@ module Jump(fract, startpos, endpos, startrot, endrot) {
 
 module BrushAnimation() {
   if ($t < 0.5) {
-    rotate([0, 0, -faceang-1.1])
+    rotate([0, 0, -faceang()-1.1])
     translate([0, facerad+1, 0])
     Brush();
   }
@@ -71,13 +70,13 @@ module BrushAnimation() {
   }
   else if ($t < 0.8) {
     lastjumprot = (jumprotend - jumprotstart)*2/3 + jumprotstart;
-    smang = -smileang-1.1+180+smilemax/2;
+    smang = -smileang()-1.1+180+smilemax/2;
     endspot = (smilerad+1)*[-sin(smang), cos(smang)] + [0, smilerad-smilepos];
     Jump(($t-0.7)/0.1, eyepos2, endspot, lastjumprot, jumprotend) Brush();
   }
   else {
     translate([0, smilerad-smilepos, 0])
-    rotate([0, 0, -smileang-1.1+180+smilemax/2])
+    rotate([0, 0, -smileang()-1.1+180+smilemax/2])
     translate([0, smilerad+1, 0])
     Brush();
   }
@@ -88,7 +87,7 @@ module PaintAnimation() {
   color(paint_color) {
     mirror([1, 0, 0])
       rotate([0, 0, 90])
-      rotate_extrude(angle=faceang+3)
+      rotate_extrude(angle=faceang()+3)
       translate([facerad, 0])
       square([2, 0.005]);
 
@@ -108,7 +107,7 @@ module PaintAnimation() {
       mirror([1, 0, 0])
       translate([0, smilerad-smilepos, 0])
       rotate([0, 0, -90-smilemax/2])
-      rotate_extrude(angle=smileang+3)
+      rotate_extrude(angle=smileang()+3)
       translate([smilerad, 0])
       square([2, 0.005]);
     }
