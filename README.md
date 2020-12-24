@@ -24,8 +24,8 @@
 - [x] `So 20. star`
 - [x] `Mo 21. wavy-thing`
 - [x] `Tu 22. julia`
-- [ ] `We 23. `
-- [ ] `Th 24. `
+- [x] `We 23. snowflake`
+- [x] `Th 24. painting`
 ```
 
 * Must work with OpenSCAD 2019.05 (e.g. not snapshot version)
